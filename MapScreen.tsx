@@ -52,13 +52,16 @@ const MapScreen = ({ navigation }) => {
 
   useEffect(() => {
     getGpsLocation();
-    return () => {
+    /* return () => {
       if (watchId.current !== null) {
         Geolocation.clearWatch(watchId.current);
         console.log('Escuta de localização removida');
         watchId.current = null; // Resetar para evitar limpeza dupla
       }
-    };
+    }; */
+    return () => {
+      console.log('Componente desmontado, mas a escuta de localização continua');
+    }
   }, [getGpsLocation]);
 
   return (
