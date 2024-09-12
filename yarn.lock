@@ -2007,19 +2007,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@marceloterreiro/flash-calendar@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@marceloterreiro/flash-calendar@npm:1.0.0"
-  dependencies:
-    mitt: ^3.0.1
-  peerDependencies:
-    "@shopify/flash-list": "*"
-    react: "*"
-    react-native: "*"
-  checksum: b07119be5cc8ab6e3aed5bd8c037b01b251f4869d04b687780b6aa8fca3323c1e1a0eb24017c165dcbce31a44376db2e3b76a93869c40aa3c87adb3b7eafb099
-  languageName: node
-  linkType: hard
-
 "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1":
   version: 5.1.1-v1
   resolution: "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1"
@@ -3024,7 +3011,6 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@marceloterreiro/flash-calendar": ^1.0.0
     "@react-native-community/geolocation": ^3.3.0
     "@react-native/babel-preset": 0.75.1
     "@react-native/eslint-config": 0.75.1
@@ -7143,12 +7129,12 @@ __metadata:
   linkType: hard
 
 "micromatch@npm:^4.0.4":
-  version: 4.0.7
-  resolution: "micromatch@npm:4.0.7"
+  version: 4.0.8
+  resolution: "micromatch@npm:4.0.8"
   dependencies:
     braces: ^3.0.3
     picomatch: ^2.3.1
-  checksum: 3cde047d70ad80cf60c787b77198d680db3b8c25b23feb01de5e2652205d9c19f43bd81882f69a0fd1f0cde6a7a122d774998aad3271ddb1b8accf8a0f480cf7
+  checksum: 79920eb634e6f400b464a954fcfa589c4e7c7143209488e44baf627f9affc8b1e306f41f4f0deedde97e69cb725920879462d3e750ab3bd3c1aed675bb3a8966
   languageName: node
   linkType: hard
 
@@ -7306,13 +7292,6 @@ __metadata:
     minipass: ^3.0.0
     yallist: ^4.0.0
   checksum: f1fdeac0b07cf8f30fcf12f4b586795b97be856edea22b5e9072707be51fc95d41487faec3f265b42973a304fe3a64acd91a44a3826a963e37b37bafde0212c3
-  languageName: node
-  linkType: hard
-
-"mitt@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "mitt@npm:3.0.1"
-  checksum: b55a489ac9c2949ab166b7f060601d3b6d893a852515ae9eca4e11df01c013876df777ea109317622b5c1c60e8aae252558e33c8c94e14124db38f64a39614b1
   languageName: node
   linkType: hard
 
